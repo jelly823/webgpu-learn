@@ -6,4 +6,4 @@
 -->
 # WebGPU
 
-learn with jjkkny from bilibili
+learn with [jjkkny from bilibili](https://space.bilibili.com/1982541803)

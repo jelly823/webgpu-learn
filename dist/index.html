@@ -6,15 +6,24 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebGPU Step-by-Step 1</title>
 </head>
+
 <body>
-    <h1>Development Enviroment:</h1>
-    <h2 id="id-gpu-check"></h2>
+    <div>
+        <h1>Create Triangle:</h1>
+        <label>Color:</label>
+        <input type="text" id="id-color" value="(1.0, 1.0, 1.0, 1.0)">
+        <button type="button" id="id-btn">Change color</button>
+        <br>
+        <canvas id="canvas-webgpu" width="640" height="480"></canvas>
+    </div>
     <script src="main.bundle.js"></script>
 </body>
+
 </html>
